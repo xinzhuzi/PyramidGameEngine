@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{41ffa514-dce6-4183-94e1-e239e47e7f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGui">
+      <UniqueIdentifier>{3a3191fa-c765-4835-8de2-2de21c73d2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGuiNode">
+      <UniqueIdentifier>{9670bb0b-9519-4cfa-ab00-10e05064a072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGui\backends">
+      <UniqueIdentifier>{e38147af-5cec-45b1-b6e4-41b333f2a5ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RootClass">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EditorRoot">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Plugins\ImGui\imconfig.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\imgui.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\imgui_internal.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\imstb_rectpack.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\imstb_textedit.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\imstb_truetype.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\backends\imgui_impl_glfw.h">
+      <Filter>ImGui\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\backends\imgui_impl_opengl3.h">
+      <Filter>ImGui\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plugins\ImGui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>ImGui\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="HWindows.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Plugins\ImGui\imgui.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\imgui_demo.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\imgui_draw.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\imgui_tables.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\backends\imgui_impl_glfw.cpp">
+      <Filter>ImGui\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Plugins\ImGui\backends\imgui_impl_opengl3.cpp">
+      <Filter>ImGui\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EditorRoot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
