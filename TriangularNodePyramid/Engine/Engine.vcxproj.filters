@@ -25,6 +25,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Editor\EditorWidget">
+      <UniqueIdentifier>{32df48c9-cc4b-4e10-8169-bba30e39ce35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Plugins\ImGui\imconfig.h">
@@ -82,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>EditorRoot</Filter>
+    </ClCompile>
+    <ClCompile Include="HWindows.cpp">
+      <Filter>Editor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
