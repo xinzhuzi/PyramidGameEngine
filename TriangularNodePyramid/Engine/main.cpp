@@ -1,6 +1,11 @@
 #include "HWindows.h"
 #include <iostream>
 
+
+#include "ControlPanel.h"
+#include "MainMenuBar.h"
+
+
 BaseHWindow* RootHWindows;
 
 int main()
@@ -29,7 +34,7 @@ int main()
 
 	ImGui::StyleColorsDark();
 
-	if (RootHWindows->InitializeBeforeRendering())
+	if (!RootHWindows->InitializeBeforeRendering())
 	{
 		std::cout << "\n InitializeBeforeRendering error ";
 	}
@@ -44,8 +49,13 @@ int main()
 		ImGui::DockSpaceOverViewport();
 
 		ImGui::ShowDemoWindow();
+		
+		DrawMainMenuBar();
 
-
+		if (ShowControlPanel)
+		{
+			DrawControlPanel();
+		}
 
 		RootHWindows->FrameEnd();
 

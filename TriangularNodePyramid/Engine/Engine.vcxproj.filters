@@ -60,6 +60,15 @@
     <ClInclude Include="HWindows.h">
       <Filter>Editor</Filter>
     </ClInclude>
+    <ClInclude Include="ControlPanel.h">
+      <Filter>Editor\EditorWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorFlag.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuBar.h">
+      <Filter>Editor\EditorWidget</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Plugins\ImGui\imgui.cpp">
@@ -88,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="HWindows.cpp">
       <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPanel.cpp">
+      <Filter>Editor\EditorWidget</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
