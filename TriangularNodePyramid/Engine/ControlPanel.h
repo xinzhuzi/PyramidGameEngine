@@ -1,10 +1,12 @@
 #include <imgui.h>
 #include "EditorFlag.h"
-
+#include "EditorWidgetData.h"
 
 void DrawControlPanel()
 {
-	if (ImGui::Begin("ControlPanel"))
+	if (!ShowControlPanel) return;
+
+	if (ImGui::Begin("ControlPanel", &ShowControlPanel))
 	{
 
 

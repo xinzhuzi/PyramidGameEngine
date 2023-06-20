@@ -1,7 +1,6 @@
 #pragma once
+#include "EditorWidgetData.h"
 
-
-bool ShowControlPanel = false;
 
 void DrawMainMenuBar()
 {
@@ -30,6 +29,7 @@ void DrawMainMenuBar()
 		if (ImGui::BeginMenu("Window"))
 		{
 			ImGui::MenuItem("ControlPanel", "ShowControlPanel", &ShowControlPanel);
+			ImGui::MenuItem("DetailsPanel", "ShowDetailsPanel", &ShowDetailsPanel);
 			ImGui::EndMenu();
 		}
 

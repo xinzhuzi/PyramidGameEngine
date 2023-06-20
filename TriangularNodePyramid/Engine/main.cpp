@@ -3,6 +3,7 @@
 
 
 #include "ControlPanel.h"
+#include "DetailsPanel.h"
 #include "MainMenuBar.h"
 
 
@@ -52,10 +53,8 @@ int main()
 		
 		DrawMainMenuBar();
 
-		if (ShowControlPanel)
-		{
-			DrawControlPanel();
-		}
+		DrawControlPanel();
+		DrawDetailsPanel();
 
 		RootHWindows->FrameEnd();
 

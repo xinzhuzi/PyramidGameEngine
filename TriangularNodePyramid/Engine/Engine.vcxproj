@@ -141,7 +141,9 @@
     <ClInclude Include="..\Plugins\ImGui\imstb_textedit.h" />
     <ClInclude Include="..\Plugins\ImGui\imstb_truetype.h" />
     <ClInclude Include="ControlPanel.h" />
+    <ClInclude Include="DetailsPanel.h" />
     <ClInclude Include="EditorFlag.h" />
+    <ClInclude Include="EditorWidgetData.h" />
     <ClInclude Include="HWindows.h" />
     <ClInclude Include="MainMenuBar.h" />
   </ItemGroup>
