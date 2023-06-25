@@ -146,6 +146,7 @@
     <ClInclude Include="EditorWidgetData.h" />
     <ClInclude Include="HWindows.h" />
     <ClInclude Include="MainMenuBar.h" />
+    <ClInclude Include="PagingPanel.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Plugins\ImGui\backends\imgui_impl_glfw.cpp" />

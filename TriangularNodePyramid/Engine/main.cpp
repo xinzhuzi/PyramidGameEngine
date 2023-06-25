@@ -5,6 +5,7 @@
 #include "ControlPanel.h"
 #include "DetailsPanel.h"
 #include "MainMenuBar.h"
+#include "PagingPanel.h"
 
 
 BaseHWindow* RootHWindows;
@@ -55,6 +56,7 @@ int main()
 
 		DrawControlPanel();
 		DrawDetailsPanel();
+		DrawPagingPanel();
 
 		RootHWindows->FrameEnd();
 

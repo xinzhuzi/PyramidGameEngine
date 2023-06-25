@@ -75,6 +75,9 @@
     <ClInclude Include="EditorWidgetData.h">
       <Filter>Editor\EditorWidget</Filter>
     </ClInclude>
+    <ClInclude Include="PagingPanel.h">
+      <Filter>Editor\EditorWidget</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Plugins\ImGui\imgui.cpp">

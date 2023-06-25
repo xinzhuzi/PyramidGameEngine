@@ -8,9 +8,4 @@
   ControlPanel.cpp
   HWindows.cpp
   main.cpp
-  正在生成代码
-  0 of 2506 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  Engine.vcxproj -> D:\Git-Project\PyramidGameEngine\TriangularNodePyramid\x64\Release\Engine.exe
+D:\Git-Project\PyramidGameEngine\TriangularNodePyramid\Engine\PagingPanel.h(7): error C2882: “ImGui”: 在表达式中非法使用命名空间标识符
